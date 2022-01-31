@@ -1,0 +1,14 @@
+{
+  "name": "vendor_name/reflection",
+  "description": "description",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "pcuser",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+  }
+}
