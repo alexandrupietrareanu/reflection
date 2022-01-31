@@ -2,7 +2,7 @@
 
 declare (strict_types=1);
 
-namespace App\Classes\Interfaces;
+namespace Reflection\Classes\Interfaces;
 
 interface DescriptionInterface
 {

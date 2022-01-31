@@ -1,8 +1,41 @@
 {
     "name": "alexandrupietrareanu/reflection",
     "description": "A php framework using reflection",
+    "keywords": ["framework", "reflection", "php"],
     "type": "library",
     "license": "MIT",
+    "readme": "",
+    "time": "",
+    "support": {
+        "issues": "https://github.com/alexandrupietrareanu/reflection/issues",
+        "source": "https://github.com/alexandrupietrareanu/reflection",
+        "wiki": "https://github.com/alexandrupietrareanu/reflection/wiki"
+    },
+    "authors": [
+        {
+            "name": "alexandrupietrareanu",
+            "email": "alexandru.pietrareanu@gmail.com",
+            "role": "Developer"
+        }
+    ],
     "minimum-stability": "alpha",
-    "require": {}
+    "require": {
+        "php": "7.4.2|^8.0",
+        "ext-mbstring": "*",
+        "ext-iconv": "*",
+        "ext-pdo": "*",
+        "ext-json": "*",
+        "ext-curl": "*",
+        "ext-simplexml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Reflection\\": "src/Reflection"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Reflection\\Tests": "tests/"
+        }
+    }
 }

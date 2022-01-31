@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Classes;
+namespace Reflection\Classes;
 
 use App\Classes\Interfaces\DescriptionInterface;
 use App\Classes\Interfaces\NameInterface;

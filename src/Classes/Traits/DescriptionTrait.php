@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace App\Classes\Traits;
+namespace Reflection\Classes\Traits;
 
 trait DescriptionTrait
 {
