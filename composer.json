@@ -1,7 +1,8 @@
 {
     "name": "alexandrupietrareanu/reflection",
     "description": "A php framework using reflection",
-    "keywords": ["framework", "reflection", "php"],
+    "keywords": ["framework",
+        "TicketTest", "php"],
     "type": "library",
     "license": "MIT",
     "readme": "",
@@ -35,7 +36,10 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Reflection\\Tests": "tests/"
+            "Reflection\\Tests\\": "tests/"
         }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
     }
 }
